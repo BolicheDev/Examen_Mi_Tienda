@@ -7,11 +7,24 @@
     <!-- <link href="css/xxxx.css" type="text/css" rel="stylesheet"> -->
     <script type=" text/javascript " src="js/principal.js"></script>
     <script type="text/javascript" src="js/crear_BD.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
     <div id="contenedor">
-        <input type="file" id="foto" onchange="visual()">
+        <div id="formulario">
+            <p>Escuderia: <input type="text" id="escuderia"></p>
+            <p>Descripcion: <input type="text" id="descripcion"></p>
+            <p>Precio: <input type="number" id="precio"></p>
+            <p>Imagen: <input type="file" id="foto"></p>
+            <p><button id="crear">Crear</button></p>
+        </div>
+        <div id="compras" class="oculto">
+            <h1>Lista de coches</h1>
+        </div>
+        <div id="carrito">
+
+        </div>
     </div>
 </body>
 
